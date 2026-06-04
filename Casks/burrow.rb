@@ -1,11 +1,11 @@
 cask "burrow" do
-  version "1.2.0"
-  sha256 "b49c5f836b47fb131c01ce764e8d53a4d3a3545cfaacfc6f6b52f531e9c5d28a"
+  version "1.3.0"
+  sha256 "2de87738baf56d1c7d2327e520461f02be27fc0615c98da706dad1f59a710a49"
 
   # Private-repo asset via API endpoint — needs HOMEBREW_GITHUB_API_TOKEN
   # (curl drops Authorization on the cross-host redirect to S3, so this works).
   # When the repo goes public, swap to the plain releases/download URL.
-  url "https://api.github.com/repos/kla-bemindlabs/burrow/releases/assets/437885019",
+  url "https://api.github.com/repos/kla-bemindlabs/burrow/releases/assets/438314425",
       header: [
         "Accept: application/octet-stream",
         "Authorization: token #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN", "")}",
