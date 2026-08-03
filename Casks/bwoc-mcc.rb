@@ -1,6 +1,6 @@
 cask "bwoc-mcc" do
-  version "0.1.3"
-  sha256 "709e20b723bc7be94e32c93c306a8bd3b59d0ba7d41ff04ed2c02d4df515a625"
+  version "0.1.4"
+  sha256 "6ec049ab5186206e9c1bf9a92acfd5386242fe24b8b870bce978db77f392afc7"
 
   url "https://github.com/bemindlabs/bwoc-mcc/releases/download/v#{version}/BwocMcc-#{version}-universal.zip"
   name "BWOC Control Center"
